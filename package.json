@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "start": "tsx src/index.ts"
   },
@@ -20,7 +20,13 @@
   "homepage": "https://github.com/Manav010203/Blog-Aggregator#readme",
   "devDependencies": {
     "@types/node": "^24.5.2",
+    "drizzle-kit": "^0.31.4",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "drizzle-orm": "^0.44.5",
+    "fast-xml-parser": "^5.2.5",
+    "postgres": "^3.4.7"
   }
 }
